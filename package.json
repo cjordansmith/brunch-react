@@ -10,6 +10,7 @@
     "build": "brunch build --production"
   },
   "dependencies": {
+    "brunch": "^2.10.9",
     "react": "^15.4",
     "react-dom": "^15.4"
   },

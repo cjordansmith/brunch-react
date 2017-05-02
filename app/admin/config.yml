@@ -3,13 +3,13 @@ backend:
   repo: cjordansmith/brunch-react
   branch: master # Branch to update
 
-  media_folder: "app/images/uploads" # Media files will be stored in the repo under images/uploads
+  media_folder: "public/images/uploads" # Media files will be stored in the repo under images/uploads
   public_folder: "/images/uploads" # Media files will be stored in the repo under images/uploads
 
   collections:
   - name: "post"
     label: "Post"
-    folder: "app/content/posts"
+    folder: "public/content/posts"
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
